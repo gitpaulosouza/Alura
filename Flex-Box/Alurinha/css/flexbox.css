@@ -41,15 +41,17 @@
 .conteudoPrincipal-cursos{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .conteudoPrincipal-cursos-link{
     width: 20%;
     margin: 1%;
+    
 }
 
 .conteudoPrincipal-cursos-link:nth-child(4n){
-    margin-right:0;
+    margin-left:0;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1){
@@ -95,8 +97,15 @@
     }
     .conteudoPrincipal-cursos-link{
         width: 100%;
-        
     }
+
+    .conteudoPrincipal-cursos-link:nth-child(4n){
+        margin:1%;
+    }
+    
+    .conteudoPrincipal-cursos-link:nth-child(4n+1){
+        margin:1%;
+    }    
 
     .rodapePrincipal-navMap-list{
         height: auto;
